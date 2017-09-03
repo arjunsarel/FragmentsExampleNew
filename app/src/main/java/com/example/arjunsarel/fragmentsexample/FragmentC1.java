@@ -28,7 +28,7 @@ public class FragmentC1 extends Fragment{
         btnv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(),"Going to Frag---1",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(),"Going to Fragment---1",Toast.LENGTH_SHORT).show();
                 //navigate to frag method call
                 ((MainActivity)getActivity()).setViewPager(0);
             }
@@ -37,7 +37,7 @@ public class FragmentC1 extends Fragment{
         btnv2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(),"Going to Frag---2",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(),"Going to Fragment---2",Toast.LENGTH_SHORT).show();
                 //navigate to frag method call
                 ((MainActivity)getActivity()).setViewPager(1);
             }
@@ -46,7 +46,7 @@ public class FragmentC1 extends Fragment{
         btnv3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(),"Going to Frag---3",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(),"Going to Fragment---3",Toast.LENGTH_SHORT).show();
                 //navigate to frag method call
                 ((MainActivity)getActivity()).setViewPager(2);
             }
@@ -55,7 +55,7 @@ public class FragmentC1 extends Fragment{
         btnvsa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(),"Going to Frag---1",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(),"Going to Fragment---1",Toast.LENGTH_SHORT).show();
                 //navigate to frag method call
                 Intent in=new Intent(getActivity(),SecondActivity.class);
                 startActivity(in);
